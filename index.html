@@ -14,10 +14,18 @@
             <img src="img/black-and-white-brid-brideand-groom-couple.jpg" style="background-color: bisque;">
             <h1 id="wel">WELCOME</h1>
             
-                <a href="contact.html" id="card"><span><p>Bride ></p></span></a>
-                <a href="contact.html" id="card"><span><p>Groom ></p></span></a>
+            <button type="button" id="brideButton">Bride ></button>
+            <button type="button" id="GroomButton">Groom ></button>
            
         </div>
     </div>
     <div class="down">All Rights Reserved @ 2024 <a href="google.com" id="prspa">Prasanna</a></div>
+        <script>
+        document.getElementById('brideButton').addEventListener('click', button1);
+
+        function button1() {
+            window.location.href = "contact.html";
+        }
+
+    </script>
 </body>
