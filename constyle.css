@@ -1,31 +1,30 @@
 .bg_video {
     height: 400px;
-    width: 696px;
+    width: 99.6%;
     border-style: hidden;
     padding: 2px;
     margin-top: -10px;
     background-color: black;
+    display: inline-block;
+    
+    
+    
+    
 
-
-
-
-
-
+    
 }
-
 .pkuthuru {
-    width: 700px;
+    width:95%;
     height: 8000px;
     border: 1px solid black;
     margin: auto;
-
-
+    
+    
 }
-
 #photo1 {
-    width: 698px;
-    height: 410px;
-    background-image: url("img/istockphoto-614720838-612x612.jpg");
+    width:100%;
+    height:410px;
+    background-image: url("istockphoto-614720838-612x612.jpg");
     background-size: 100% 100%;
     margin: 0%;
     margin-top: -60px;
@@ -33,14 +32,12 @@
     text-align: center;
     text-decoration: blueviolet;
 }
-
 #letter {
     font-size: 50px;
     color: blue;
     margin-top: 60px;
-
+    
 }
-
 #time {
     color: black;
     font-size: 60px;
@@ -51,36 +48,31 @@
     margin-top: -7PX;
 
 }
-
 #we {
     font-size: 25px;
     color: red;
     letter-spacing: 0cm;
     margin-top: 10px;
 }
-
 #save {
     font-size: 20px;
-    color: black;
+    color:black;
     margin-top: 10px;
     word-spacing: 2px;
-
+    
 }
-
 #pavan {
     display: flex;
     justify-content: baseline;
     justify-content: center;
     margin-top: 20px;
 }
-
 #dece {
     color: red;
     font-size: 30px;
     margin-left: 15px;
     word-spacing: 5px;
 }
-
 #bot {
     background-color: red;
     color: white;
@@ -94,8 +86,7 @@
     display: inline-block;
     text-align: center;
 }
-
-#pslid {
+# pslid {
     height: 50px;
     width: 40px;
     border: 1px solid red;
@@ -103,11 +94,9 @@
     margin: 30px;
 
 }
-
 #slider {
     overflow: hidden;
 }
-
 #slider figure {
     position: relative;
     width: 500%;
@@ -115,7 +104,6 @@
     left: 0;
     animation: 10s slider infinite;
 }
-
 #slider figure img {
     float: left;
     width: 20%;
@@ -125,86 +113,70 @@
     0% {
         left: 0;
     }
-
     20% {
         left: 0;
     }
-
     25% {
         left: -100%;
     }
-
     45% {
         left: -100%;
     }
-
     50% {
         left: -200%;
     }
-
     70% {
         left: -200%;
     }
-
     75% {
         left: -300%;
     }
-
     95% {
         left: -300%;
     }
-
     100% {
         left: -400%;
     }
 }
-
 #box3 {
     height: 50px;
     width: 700px;
     display: flex;
     justify-content: center;
     margin-top: 50px;
-
-
+    
+    
 }
-
 #dha {
     font-size: 25px;
     word-spacing: 5px;
     margin-right: 20px;
     text-align: center;
 }
-
 #wed {
     font-size: 25px;
     color: red;
     margin-right: 20px;
 }
-
 #arj {
     font-size: 25px;
     word-spacing: 5px;
     margin-right: 20px;
 }
-
 #flo1 {
     width: 150px;
     height: 100px;
     padding-left: 290px;
     margin-top: -20px;
 }
-
 #fbox1 {
     display: flex;
     justify-content: end;
 }
-
 #girl {
     width: 300px;
     height: 200px;
 }
-
 #name1 {
     color: red;
     text-align: center;
@@ -215,16 +187,13 @@
     font-size: 23px;
     margin-right: 25px;
 }
-
 #redd1 {
     margin-top: 15px;
 }
-
 #fbox2 {
     display: flex;
     margin-top: 80px;
 }
-
 #name2 {
     color: red;
     text-align: center;
@@ -235,114 +204,99 @@
     font-size: 23px;
     margin-left: 25px;
 }
-
 #redd2 {
     margin-top: 15px;
 }
-
 #midf {
     width: 400px;
     height: 215px;
     margin-left: 200px;
     margin-top: -35px;
 }
-
 #fun {
     color: black;
     text-align: center;
     font-size: 35px;
     letter-spacing: 8px;
 }
-
 #diam {
     text-align: center;
     margin-top: -80px;
 }
-
 #mabox1 {
     width: 550px;
     height: 550px;
-    margin-left: 70px;
+    margin-left: 130px;
     border: 5px solid black;
 }
-
 #haldbox {
     width: 550px;
     height: 420px;
-    margin-left: 70px;
+    margin-left: 130px;
     margin-top: 50px;
     border: 5px solid black;
     z-index: 3;
     background-color: antiquewhite;
     position: relative;
 }
-
 #fril {
     display: flex;
     backface-visibility: hidden;
     margin-top: -45px;
 }
-
-#conf {
+#conf{
     width: 50px;
     height: 50px;
     margin-left: 350px;
     margin-top: -25px;
     border: none;
-    background-image: url('img/conflower2.jpg');
+    background-image: url('conflower2.jpg');
 
-
-
+    
+    
 }
-
 #hal {
     color: red;
     font-size: 45px;
     margin: 20px;
     margin-right: 267px;
     margin-top: 50px;
-
+    
 }
-
 #dec3 {
-    color: rgb(99, 39, 99);
+    color:rgb(99, 39, 99);
     font-size: 30px;
     margin-top: -25px;
     margin-left: 20px;
-
+    
 }
-
 #let {
     font-size: 27px;
     padding-left: 20px;
     margin-top: 25px;
 }
-
 #am {
-
-    color: rgb(99, 39, 99);
+    
+    color:rgb(99, 39, 99);
     font-size: 30px;
     margin-top: 15px;
     margin-left: 20px;
 
 }
-
 #foo {
     font-size: 27px;
     padding-left: 20px;
     margin-top: 20px;
 
 }
-
 #venu {
-    color: rgb(99, 39, 99);
+    color:rgb(99, 39, 99);
     font-size: 27px;
     margin-top: 20px;
     margin-left: 20px;
     word-spacing: 2px;
 
 }
-
 #view {
     height: 35px;
     width: 99px;
@@ -365,22 +319,19 @@
     height: 40px;
     background-color: black;
     border-radius: 3px;
-    margin-left: 50px;
     z-index: 2;
     margin-top: -23px;
-    margin-left: 120px;
+    margin-left: 150px;
     position: relative;
     rotate: 45deg;
 }
-
 #sangetham {
     width: 550px;
     height: 413px;
-    margin-left: 70px;
+    margin-left: 130px;
     margin-top: 50px;
     border: 5px solid black;
 }
-
 #sang {
     width: 550px;
     height: 400px;
@@ -390,7 +341,6 @@
     border: 5px solid black;
 
 }
-
 #sgth {
     color: red;
     font-size: 32px;
@@ -398,19 +348,16 @@
     margin-top: 20px;
     margin-right: 40px;
 }
-
 #frist2 {
     display: flex;
 }
-
 #conf2 {
     margin-left: 430px;
     margin-top: -102px;
     border: none;
-
+    
 
 }
-
 #htee {
     font-size: 33px;
     color: red;
@@ -418,11 +365,10 @@
     margin-left: 20px;
     margin-right: 247px;
 }
-
 #sangbox {
     width: 550px;
     height: 350px;
-    margin-left: 70px;
+    margin-left: 130px;
     margin-top: 50px;
     border: 5px solid black;
     z-index: 3;
@@ -430,16 +376,14 @@
     position: relative;
 
 }
-
 #thodpikur {
     width: 550px;
     height: 500px;
     border: 5px solid black;
-    margin-left: 70px;
+    margin-left: 130px;
     margin-top: 50px;
-    background-image: url('img/thopilkur.jpg');
+    background-image: url('thopilkur.jpg');
 }
-
 #pelik {
     font-size: 28px;
     width: 700px;
@@ -449,29 +393,26 @@
     margin-top: 55px;
     margin-left: 20px;
     margin-right: -10px;
-
+    
 
 }
-
 #peconfl {
     margin-left: -20px;
-
+    
     margin-right: -40px;
 }
-
 #knotbox {
     width: 550px;
     height: 367px;
     border: 5px solid black;
-    margin-left: 70px;
+    margin-left: 130px;
     margin-top: 50px;
 
 }
-
 #tiebox {
     width: 550px;
     height: 300px;
-    margin-left: 70px;
+    margin-left: 130px;
     margin-top: 50px;
     border: 5px solid black;
     z-index: 3;
@@ -479,28 +420,25 @@
     position: relative;
 
 }
-
 #larrow {
     width: 450px;
     height: 53px;
-    background-image: url('img/larrow1.png');
+    background-image: url('larrow1.png');
     justify-content: center;
     text-align: center;
-    margin-left: 125px;
+    margin-left: 175px;
     margin-top: 80px;
 }
-
 #wll {
     color: red;
     font-size: 40px;
     letter-spacing: -4px;
     word-spacing: 10px;
-    margin-left: 200px;
+    margin-left: 270px;
     margin-top: 50px;
     justify-content: center;
 
 }
-
 #lin {
     color: red;
     font-size: 40px;
@@ -509,7 +447,6 @@
     margin-left: 100px;
 
 }
-
 #dhwea {
     font-size: 25px;
     color: black;
@@ -517,7 +454,6 @@
     word-spacing: 3px;
     margin-top: 30px;
 }
-
 #lsod {
     color: black;
     font-size: 16px;
@@ -527,7 +463,6 @@
     word-spacing: -2px;
     margin-top: 7PX;
 }
-
 #time {
     color: black;
     font-size: 16px;
@@ -537,7 +472,6 @@
     word-spacing: -2px;
     margin-top: 7PX;
 }
-
 #lilibox {
     width: 125px;
     height: 40px;
@@ -547,7 +481,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
     text-align: center;
-    padding: 5px;
+    padding:5px;
     padding-top: 7PX;
     padding-bottom: 7px;
     word-spacing: -1.5px;
@@ -558,43 +492,38 @@
     cursor: pointer;
     display: inline;
 }
-
 #larrow2 {
     width: 450px;
     height: 53px;
-    background-image: url('img/larrow1.png');
+    background-image: url('larrow1.png');
     justify-content: center;
     text-align: center;
     margin-left: -80px;
     margin-top: 20px;
 }
-
 #recpic {
     width: 550px;
     height: 550px;
     background-color: blue;
     border: 5px solid black;
-    margin-left: 70px;
+    margin-left: 130px;
     margin-top: 50px;
-    background-image: url('img/recptionpic.jpg');
+    background-image: url('recptionpic.jpg');
 }
-
 #clock {
     font-size: 70px;
     margin-top: 50px;
     padding-top: 40px;
-}
-
+}    
 #circle {
     width: 800px;
     height: 250px;
-    background-image: url('img/circle10.png');
+    background-image: url('circle10.png');
     background-size: 100% 100%;
-    margin-left: -45px;
+    margin-left: 7px;
     margin-top: 70px;
     padding-bottom: 100px;
 }
-
 #content {
     color: black;
     font-size: 35px;
@@ -604,11 +533,14 @@
     line-height: 50px;
     padding-top: 10px;
 }
-
 #to {
     padding-left: 160px;
 }
-
 #us {
     padding-left: 160px;
+}
+#diam1 {
+    text-align: center;
+    margin-top: 30px;
+
 }
